@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\52000703\\cnpm-lab10-ex3\\TestProject1\\TestProject1.csproj": {}
+    "E:\\52000703\\Bai3\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "E:\\52000703\\cnpm-lab10-ex3\\TestProject1\\TestProject1.csproj": {
+    "E:\\52000703\\Bai3\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\52000703\\cnpm-lab10-ex3\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "E:\\52000703\\Bai3\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "E:\\52000703\\cnpm-lab10-ex3\\TestProject1\\TestProject1.csproj",
+        "projectPath": "E:\\52000703\\Bai3\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\52000703\\cnpm-lab10-ex3\\TestProject1\\obj\\",
+        "outputPath": "E:\\52000703\\Bai3\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\52000703\\Bai3\\UnitTestConsole\\UnitTestConsole.csproj": {
+                "projectPath": "E:\\52000703\\Bai3\\UnitTestConsole\\UnitTestConsole.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,6 +61,61 @@
               "version": "[3.1.2, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\52000703\\Bai3\\UnitTestConsole\\UnitTestConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\52000703\\Bai3\\UnitTestConsole\\UnitTestConsole.csproj",
+        "projectName": "UnitTestConsole",
+        "projectPath": "E:\\52000703\\Bai3\\UnitTestConsole\\UnitTestConsole.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\52000703\\Bai3\\UnitTestConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
